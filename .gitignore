@@ -1,0 +1,14 @@
+/env/*
+!/env/lib
+/env/lib/*
+!/env/lib/python3.6
+/env/lib/python3.6/*
+!/env/lib/python3.6/site-packages
+/env/lib/python3.6/site-packages/*
+!env/lib/python3.6/site-packages/synapse
+
+__pycache__/
+
+homeserver.db
+homeserver.log*
+/media_store
